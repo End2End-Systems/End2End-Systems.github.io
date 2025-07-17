@@ -1,11 +1,40 @@
 ---
 layout: page
-title: About
+title: About End2End Systems
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Who We Are
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+{{ site.author.bio }}.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+> - **Mission:** Connect technological solutions with efficiency and ethics.
+>
+> - **Vision:** To be a reference in consulting and software development in Brazil.
+>
+> - **Values:** Innovation, responsibility, integrity, trust, and continuous learning.
+
+## Services
+
+- Custom software development
+- Consulting in technological solutions
+- Systems integration and process automation
+- Specialized technical support
+
+## Team
+
+***Matheus Costa Vieira*** – CEO, Developer, and Finance
+
+***Daniela Priscila Lins*** – HR Analyst, Administration, and Social Media
+
+***Pedro Henrique Lins Vieira*** – Junior IT Apprentice
+
+## Portfolio
+
+### Web App Project
+
+Online management system with a responsive dashboard, designed with a focus on usability and performance.
+
+### Integration API
+
+Development of integration between platforms using RESTful architecture and secure authentication.
