@@ -20,20 +20,20 @@ sass:
 
 # SEO settings
 title: end2end
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+description: "End2End Systems, the company site"
+keywords: ".net, .net core, angular, react, vuejs, javascript, typescript, nodejs, python, django, flask, ruby on rails, jekyll, azure, aws, digital solutions, technology company, custom software development, AI Companion, AI solutions, end-to-end delivery, quality software, innovation in technology"
+url: https://end2end-systems.github.io/
 baseurl: "/end2end"
 
 google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+repo: http://github.com/End2End-Systems/End2End-Systems.github.io
+disqus_shortname: "End2End-Systems"
+disqus_site_shortname: "End2End-Systems"
 
 # Author settings
 author:
-  name: End 2 End Systems
-  logo: End 2 End <small>Systems</small>
+  name: End2End Systems
+  logo: End2End <small>Systems</small>
   job: Technology company specialized in digital solutions
   bio: "End2End Systems is a technology company specialized in developing custom digital solutions, focusing on quality, innovation, and end-to-end delivery."
   thumb: /images/logo.svg
