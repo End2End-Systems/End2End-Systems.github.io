@@ -1,5 +1,3 @@
-@use "sass:math"
-
 // Typography
 $base-font-family: "Tomorrow", "Montserrat", "Helvetica, Arial, sans-serif"
 $heading-font-family: $base-font-family
@@ -19,8 +17,8 @@ $font-weight-bold: 700
 
 // Other Sizes
 $base-spacing: $base-line-height * 1em
-$small-spacing: math.div($base-spacing, 2)
-$xsmall-spacing: math.div($base-spacing, 3)
+$small-spacing: $base-spacing / 2
+$xsmall-spacing: $base-spacing / 3
 $big-spacing: $base-spacing * 2.5
 $base-z-index: 0
 
