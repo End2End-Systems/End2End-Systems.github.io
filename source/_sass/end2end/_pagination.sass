@@ -1,0 +1,21 @@
+@use "sass:math"
+
+.pagination
+  text-align: center
+  margin: $base-spacing 0 0
+
+  @extend %clearfix
+
+  li
+    padding: 0 .4em
+
+  li, a, span
+    display: inline-block
+
+  a, span
+    line-height: 1.2em
+    font-size: math.div(12, 16) * 1rem
+
+  span
+    color: #aaa
+    font-style: italic

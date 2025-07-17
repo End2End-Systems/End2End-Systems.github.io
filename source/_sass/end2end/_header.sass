@@ -1,0 +1,49 @@
+@use "sass:math"
+
+.site-header
+  background-color: $white-color
+  padding: 0
+  margin: 0
+  border-bottom: 1px solid rgba($light-gray-color, .5)
+  position: fixed
+  top: 0
+  right: 0
+  min-height: 80px
+  width: 100%
+  z-index: 1000
+
+  @extend %clearfix
+
+  @media (max-width: $tablet-small)
+    position: relative
+    padding: $base-spacing 0
+    min-height: 35px
+
+  .navbar
+    float: right
+
+  a
+    color: $medium-gray-color
+
+    &:hover,
+    &:focus,
+    &:active
+      color: $dark-gray-color
+
+.logo
+  margin: 0
+  padding: 0
+  float: left
+  font-weight: $font-weight-normal
+  font-size: math.div(20, 16) * 1rem
+  position: fixed
+  top: $base-spacing
+  left: $base-spacing
+  z-index: 100
+
+  @media (max-width: $tablet-small)
+    padding: 5px 0
+    position: relative
+
+  span
+    color: $primary-color
